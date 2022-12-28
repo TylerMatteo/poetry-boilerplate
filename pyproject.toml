@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "venv-poetry-poc"
+name = "poetry-boilerplate"
 version = "0.1.0"
 description = "A simple PoC project for using pyenv, venv, and poetry to manage dependencies and python versions"
 authors = ["Tyler Matteo <tylermatteo434@gmail.com>"]
 readme = "README.md"
-packages = [{include = "venv_poetry_poc"}]
+packages = []
 
 [tool.isort]
 profile = "black"
