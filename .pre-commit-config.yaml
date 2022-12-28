@@ -33,13 +33,6 @@ repos:
     entry: black
     types: [python]
 
-  - id: mypy
-    name: mypy
-    stages: [commit]
-    language: system
-    entry: mypy
-    types: [python]
-
   - id: pylint
     name: pylint
     entry: pylint
